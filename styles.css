@@ -123,4 +123,8 @@ span {
     padding-left: 50px;
     padding-right: 50px;
   }
+  .bigger-card {
+    border-radius: 5%;
+    margin: 80px 65px 50px;
+  }
 }

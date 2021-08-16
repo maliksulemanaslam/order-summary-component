@@ -10,12 +10,11 @@ span {
 
 .card {
   text-align: center;
-  margin: 50px auto;
 }
 
 .bigger-card {
   border-radius: 5%;
-  margin-top: 80px;
+  margin: 80px auto 50px;
 }
 
 .rounded-top {
@@ -115,4 +114,14 @@ span {
 .cancel-link:hover {
   color: #3D087B;
   text-decoration: none;
+}
+
+@media (max-width: 650px) {
+  body {
+    background-image: url("images/pattern-background-mobile.svg");
+    background-color: hsl(225, 100%, 94%);
+  }
+  .bigger-card{
+    margin: 80px auto 50px;
+  }
 }

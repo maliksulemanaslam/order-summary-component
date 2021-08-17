@@ -8,13 +8,16 @@ span {
   color: #A19882;
 }
 
+ #main-card{
+  padding: 6% 36% 3% 36%;
+}
 .card {
   text-align: center;
 }
 
 .bigger-card {
   border-radius: 5%;
-  margin: 80px auto 50px;
+  /* margin: 80px auto 50px; */
 }
 
 .rounded-top {
@@ -116,9 +119,32 @@ span {
   text-decoration: none;
 }
 
+/* Media Query Breakpoints */
 @media (max-width: 650px) {
   body {
     background-image: url("images/pattern-background-mobile.svg");
     background-color: hsl(225, 100%, 94%);
   }
+}
+
+@media (max-width: 1276px) {
+  #main-card{
+   padding: 6% 32% 3% 32%;
+ }
+}
+
+@media (max-width: 1192px) and (min-width:500px) {
+  #main-card{
+   padding: 8% 25% 3% 25%;
+ }
+}
+@media (max-width: 722px) and (min-width:500px) {
+  #main-card{
+   padding: 8% 18% 3% 18%;
+ }
+}
+@media (max-width: 500px) {
+  #main-card{
+   padding: 8% 14% 3% 14%;
+ }
 }
